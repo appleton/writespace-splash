@@ -1,0 +1,76 @@
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}a{background:0 0}h1{font-size:2em;margin:.67em 0}img{border:0}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+
+body {
+  padding: 0;
+  background: #f8f8f8;
+  color: #444;
+  font: normal normal 100%/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+a {
+  color: #4490d2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #225c8e;
+  border-bottom: 1px solid #225c8e;
+}
+
+h1 {
+  margin: 0;
+  padding: 50px 1em 140px;
+  background: #fff;
+  font: normal normal 3.125em "Source Code Pro", sans-serif;
+}
+
+h1:after {
+  content: "|";
+  color: #2DBCFB;
+  font-weight: bold;
+}
+
+main {
+  padding: 0 1em;
+  margin-top: -90px;
+}
+
+video {
+  display: block;
+  margin: 0 auto 60px;
+  padding-top: 19px;
+  background: 0 0 url(/public/img/titlebar@2x.png) no-repeat;
+  background-size: 680px;
+  box-shadow: 0 2px 4px rgba(0, 0 ,0, 0.2);
+  border-radius: 3px;
+}
+
+.btn {
+  background: #97C765;
+  border: 1px solid #97C765;
+  color: #fff;
+  padding: 10px 100px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #8bc052;
+  border: 1px solid #97C765;
+  color: #fff;
+}
+
+.btn:active, .btn:focus {
+  background: #7eb742;
+}
+
+.btn:active {
+  border-top: 1px solid #659135;
+}
+
+footer {
+  margin-top: 50px;
+}
