@@ -21,11 +21,11 @@ a:hover {
 
 h1 {
   margin: 0;
-  padding: 80px 1em 140px;
+  padding: 60px 1em 140px;
   direction: ltr;
   text-indent: -200%;
   background: #fff url(/public/img/logo@2x.png) no-repeat center 45px;
-  background-size: 288px;
+  background-size: 200px;
 }
 
 main {
