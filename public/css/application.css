@@ -10,7 +10,7 @@ body {
   text-align: center;
 }
 a {
-  color: #4490d2;
+  color: #1695CB;
   text-decoration: none;
 }
 
@@ -21,15 +21,11 @@ a:hover {
 
 h1 {
   margin: 0;
-  padding: 50px 1em 140px;
-  background: #fff;
-  font: normal normal 3.125em "Source Code Pro", sans-serif;
-}
-
-h1:after {
-  content: "|";
-  color: #2DBCFB;
-  font-weight: bold;
+  padding: 80px 1em 140px;
+  direction: ltr;
+  text-indent: -200%;
+  background: #fff url(/public/img/logo@2x.png) no-repeat center 45px;
+  background-size: 288px;
 }
 
 main {
@@ -49,8 +45,8 @@ video {
 }
 
 .btn {
-  background: #97C765;
-  border: 1px solid #97C765;
+  background: #1DB99E;
+  border: 1px solid #1DB99E;
   color: #fff;
   padding: 10px 100px;
   border-radius: 3px;
@@ -59,13 +55,13 @@ video {
 }
 
 .btn:hover {
-  background: #8bc052;
-  border: 1px solid #97C765;
+  background: #1AA890;
+  border: 1px solid #1DB99E;
   color: #fff;
 }
 
 .btn:active, .btn:focus {
-  background: #7eb742;
+  background: #179882;
 }
 
 .btn:active {
@@ -73,5 +69,6 @@ video {
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 30px;
+  padding: 20px;
 }
