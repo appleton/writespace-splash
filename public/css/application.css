@@ -4,7 +4,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
 body {
   padding: 0;
-  background: #f8f8f8;
+  background: #FCFCFC;
   color: #444;
   font: normal normal 100%/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
@@ -24,7 +24,7 @@ h1 {
   padding: 60px 1em 140px;
   direction: ltr;
   text-indent: -200%;
-  background: #fff url(/public/img/logo@2x.png) no-repeat center 45px;
+  background: url(/public/img/logo@2x.png) no-repeat center 45px;
   background-size: 200px;
 }
 
@@ -37,9 +37,7 @@ video {
   max-width: 100%;
   display: block;
   margin: 0 auto 60px;
-  padding-top: 19px;
-  background: 0 0 url(/public/img/titlebar@2x.png) no-repeat;
-  background-size: 680px;
+  background-size: 640px;
   box-shadow: 0 2px 4px rgba(0, 0 ,0, 0.2);
   border-radius: 3px;
 }
