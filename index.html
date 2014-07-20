@@ -7,32 +7,50 @@
 </head>
 <body>
 
-  <h1>Notesy</h1>
+  <h1 class="logo">Notesy</h1>
 
   <main>
-    <video autoplay muted poster="/public/img/poster@2x.png" width="640" height="360">
-      <source src="/public/video/notesy.webm" type='video/webm; codecs="vp8, vorbis"'></source>
-      <source src="/public/video/notesy.ogv" type='video/ogg; codecs="theora, vorbis"'></source>
-      <source src="/public/video/notesy.mp4"></source>
-      <img src="/public/img/poster@2x.png" width="640" height="360" alt="Notesy is a markdown note taking application which stores your notes in the browser and syncs them to the server." />
-    </video>
+    <section class="apps wrap">
+      <div class="apps-iphone">
+        <h1 class="markdown markdown-header"># Hello Notesy!</h1>
+        <p class="markdown markdown-body">Gather all of your notes in one place, access them from anywhere.</p>
+      </div>
 
-    <a href="https://app.notesy.co/users/new" class="btn btn--cta">
-      Get Started
-    </a>
+      <div class="apps-web">
+        <h1 class="markdown markdown-header"># Hello Notesy!</h1>
+        <p class="markdown markdown-body">Gather all of your notes in one place, access them from anywhere.</p>
+      </div>
+    </section>
 
-    <p>
-      Already have an account?
-      <a href="https://app.notesy.co">Log in here</a>
-    </p>
+    <section class="features">
+      <ul class="features-list wrap">
+        <li class="features-list-item">
+          <img alt="Markdown" src="/public/img/markdown@2x.png" width="82" height="50" />
+          <p>Notesy speaks markdown and includes a load of handy shortcuts to make editing a snap</p>
+        </li>
+        <li class="features-list-item">
+          <img alt="Sync" src="/public/img/sync@2x.png" width="63" height="51" />
+          <p>Notes are syncronised to a secure server so they&rsquo;re always safely backed up</p>
+        </li>
+        <li class="features-list-item">
+          <img alt="Apps" src="/public/img/apps@2x.png" width="139" height="49" />
+          <p>Available for iPhone and the web so you can edit your notes wherever you are</p>
+        </li>
+      </ul>
+
+      <a class="btn btn-app-store" href="javascript:alert('todo')">Available on the app store</a>
+      <span class="or">or</span>
+      <a class="btn btn-online" href="https://app.notesy.co/users/new">Get started online</a>
+    </section>
   </main>
 
-  <footer>
+  <footer class="wrap">
+    <p><a href="mailto:help@notesy.co">help@notesy.co</a></p>
     Made by <a href="https://twitter.com/appltn">Andy Appleton</a>,
     logo by <a href="https://twitter.com/almonk">Alasdair Monk</a>
   </footer>
 
-  <script type="text/javascript">
+  <script>
     var _gauges = _gauges || [];
     (function() {
       var t = document.createElement('script');

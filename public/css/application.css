@@ -2,6 +2,10 @@
 
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}a{background:0 0}h1{font-size:2em;margin:.67em 0}img{border:0}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   padding: 0;
   background: #FCFCFC;
@@ -9,6 +13,7 @@ body {
   font: normal normal 100%/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
 }
+
 a {
   color: #1695CB;
   text-decoration: none;
@@ -19,54 +24,141 @@ a:hover {
   border-bottom: 1px solid #225c8e;
 }
 
-h1 {
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logo {
   margin: 0;
-  padding: 60px 1em 140px;
+  padding: 50px 1em;
   direction: ltr;
   text-indent: -200%;
   background: url(/public/img/logo@2x.png) no-repeat center 52px;
-  background-size: 200px;
+  background-size: 137px;
 }
 
 main {
-  padding: 0 1em;
-  margin-top: -90px;
+  padding: 0;
 }
 
-video {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto 60px;
-  background-size: 640px;
-  box-shadow: 0 2px 4px rgba(0, 0 ,0, 0.2);
-  border-radius: 3px;
+.apps {
+  position: relative;
+  padding: 0 1em;
+  height: 400px;
+  z-index: 1;
+}
+
+.apps-iphone {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  padding: 180px 60px 0;
+  height: 400px;
+  width: 334px;
+  z-index: 2;
+  background: url(/public/img/iphone-ui@2x.png) no-repeat 0 0;
+  background-size: 334px;
+}
+
+.apps-web {
+  position: absolute;
+  bottom: -50px;
+  right: 10px;
+  padding: 95px 65px 0 290px;
+  height: 370px;
+  width: 720px;
+  z-index: 1;
+  background: url(/public/img/web-ui@2x.png) no-repeat 0 0;
+  background-size: 720px;
+}
+
+.markdown {
+  font: 14px/1.4 'Source code pro' mono;
+  text-align: left;
+}
+
+.markdown-header {
+  font-weight: bold;
+  margin: 0 0 0 -16px;
+}
+
+.features {
+  position: relative;
+  z-index: 2;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, #5BCBFF), color-stop(1, #55EFCB));
+  background-image: -webkit-linear-gradient(left bottom, #5BCBFF 0%, #55EFCB 100%);
+  background-image:    -moz-linear-gradient(left bottom, #5BCBFF 0%, #55EFCB 100%);
+  background-image:     -ms-linear-gradient(left bottom, #5BCBFF 0%, #55EFCB 100%);
+  background-image:      -o-linear-gradient(left bottom, #5BCBFF 0%, #55EFCB 100%);
+  background-image:         linear-gradient(to left bottom, #5BCBFF 0%, #55EFCB 100%);
+  color: #fff;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.125em;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 60px;
+  display: flex;
+}
+
+.features-list-item {
+  padding: 0 20px;
 }
 
 .btn {
-  background: #1DB99E;
-  border: 1px solid #1DB99E;
+  display: inline-block;
+  line-height: 60px;
+  height: 60px;
+  border: 2px solid #fff;
   color: #fff;
-  padding: 10px 100px;
-  border-radius: 3px;
+  padding: 0 8px;
+  border-radius: 8px;
   cursor: pointer;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #1AA890;
-  border: 1px solid #1DB99E;
+  border: 2px solid #fff;
   color: #fff;
+  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .btn:active, .btn:focus {
-  background: #179882;
+  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-.btn:active {
-  border-top: 1px solid #659135;
+.btn-app-store {
+  width: 165px;
+  background: url(/public/img/app-store@2x.png) no-repeat center center;
+  background-size: 135px;
+  text-indent: -100%;
+}
+
+.btn-online:before {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  margin-right: 6px;
+  height: 23px;
+  width: 39px;
+  background: url(/public/img/laptop@2x.png) no-repeat 0 0;
+  background-size: 39px;
+}
+
+.or {
+  display: inline-block;
+  padding: 0 25px;
+  line-height: 60px;
 }
 
 footer {
-  margin-top: 30px;
-  padding: 20px;
+  padding: 40px;
 }
