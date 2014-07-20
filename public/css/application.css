@@ -24,9 +24,15 @@ a:hover {
   border-bottom: 1px solid #225c8e;
 }
 
+img {
+  max-width: 100%;
+}
+
 .wrap {
   max-width: 1000px;
   margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .logo {
@@ -138,7 +144,7 @@ main {
   width: 165px;
   background: url(/public/img/app-store@2x.png) no-repeat center center;
   background-size: 135px;
-  text-indent: -100%;
+  text-indent: -200%;
 }
 
 .btn-online:before {
@@ -161,4 +167,47 @@ main {
 
 footer {
   padding: 40px;
+}
+
+@media (max-width: 800px) {
+  .apps-iphone {
+    position: static;
+    margin: 0 auto;
+  }
+
+  .apps-web {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .features-list {
+    display: block;
+  }
+
+  .features-list-item {
+    overflow: hidden;
+  }
+
+  .features-list-item-img {
+    display: block;
+    float: left;
+    width: 20%;
+  }
+
+  .features-list-item-text {
+    float: left;
+    margin: 0 0 40px 0;
+    padding-left: 20px;
+    width: 80%;
+    text-align: left;
+  }
+
+  .btn {
+    display: block;
+  }
+
+  .btn-app-store {
+    width: 100%;
+  }
 }
