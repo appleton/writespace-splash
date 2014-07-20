@@ -87,7 +87,7 @@ main {
   height: 400px;
   width: 334px;
   z-index: 2;
-  background: url(/public/img/iphone-ui@2x.png) no-repeat 0 0;
+  background: url(/public/img/iphone-ui@2x.png) no-repeat center 0;
   background-size: 334px;
 }
 
@@ -238,6 +238,20 @@ footer {
 }
 
 @media (max-width: 550px) {
+  .logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-position: center 25px;
+  }
+
+  .apps {
+    height: 320px;
+  }
+
+  .apps-iphone {
+    height: 320px;
+  }
+
   .features-list {
     display: block;
   }
@@ -266,5 +280,12 @@ footer {
 
   .btn-app-store {
     width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  .apps-iphone {
+    position: relative;
+    left: -20px;
   }
 }
