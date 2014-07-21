@@ -162,6 +162,10 @@ main {
   font-size: 1.125em;
 }
 
+.features > .wrap {
+  overflow: hidden;
+}
+
 .features-list {
   list-style: none;
   padding: 0;
