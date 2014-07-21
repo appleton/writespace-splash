@@ -1,5 +1,5 @@
 (function() {
-  var INTERVAL = 80;
+  var INTERVAL = 60;
 
   function randomisedInterval() {
     return INTERVAL + (INTERVAL * Math.random());

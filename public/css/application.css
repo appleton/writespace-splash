@@ -104,7 +104,7 @@ main {
 }
 
 .markdown {
-  font: 14px/1.4 'Source Code Pro' mono;
+  font: 14px/1.4 'Source Code Pro', mono;
   text-align: left;
 }
 
