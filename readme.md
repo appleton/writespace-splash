@@ -6,8 +6,4 @@ Plain old HTML & CSS. Run it from any webserver, e.g.
 python -m SimpleHTTPServer
 ```
 
-Deploy it to S3:
-
-```sh
-bin/deploy
-```
+To deploy to GitHub pages just push to the `gh-pages branch`

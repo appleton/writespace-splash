@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-assets='index.html public'
-echo "Deploying: $assets"
-
-s3cmd sync --force --reduced-redundancy --acl-public $assets s3://scribly.co/
