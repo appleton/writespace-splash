@@ -1,6 +1,13 @@
-To regenerate videos:
+# Scribly splash pages
+
+Plain old HTML & CSS. Run it from any webserver, e.g.
+
+```sh
+python -m SimpleHTTPServer
 ```
-ffmpeg -i notesy.mp4 notesy.ogv
-ffmpeg -i notesy.mp4 notesy.webm
-ffmpeg -i notesy.mp4 _notesy.mp4
+
+Deploy it to S3:
+
+```sh
+bin/deploy
 ```
