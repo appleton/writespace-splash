@@ -59,13 +59,27 @@ img {
   padding-right: 1em;
 }
 
-.logo {
+.banner {
+  margin: 50px auto;
+}
+
+.banner-logo {
+  padding: 0;
+  background: url(/public/img/icon@2x.png) no-repeat center 0;
+  background-size: 90px;
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1)
+}
+
+.banner-title {
   margin: 0;
-  padding: 50px 1em;
-  direction: ltr;
-  text-indent: -200%;
-  background: url(/public/img/logo@2x.png) no-repeat center 52px;
-  background-size: 137px;
+  font-weight: 500;
+}
+
+.banner-subtitle {
+  margin: 0;
 }
 
 main {
