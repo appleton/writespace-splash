@@ -34,7 +34,7 @@ body {
   padding: 0;
   background: #FCFCFC;
   color: #444;
-  font: normal normal 100%/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal normal 100%/1.4 system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
@@ -74,11 +74,15 @@ img {
 }
 
 .banner-title {
-  margin: 0;
-  font-weight: 500;
+  font-weight: 200;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  margin: 1em 0 0.2em;
 }
 
 .banner-subtitle {
+  font-weight: 200;
   margin: 0;
 }
 
