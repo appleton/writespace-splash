@@ -1,4 +1,4 @@
-# Scribly splash pages
+# Writespace splash pages
 
 Plain old HTML & CSS. Run it from any webserver, e.g.
 
