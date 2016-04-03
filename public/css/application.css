@@ -212,6 +212,8 @@ main {
 
 .features-list-item {
   padding: 0 20px;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .btn {
