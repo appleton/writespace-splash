@@ -59,6 +59,12 @@ img {
   padding-right: 1em;
 }
 
+.shutdown-alert {
+  background: #f9e9e7;
+  color: red;
+  padding: 20px 0;
+}
+
 .banner {
   margin: 50px auto;
 }
